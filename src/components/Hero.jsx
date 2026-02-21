@@ -91,7 +91,7 @@ export default function Hero() {
                     <div className="relative aspect-[3/4] rounded-3xl overflow-hidden bg-gradient-to-tr from-teal-100 to-slate-100 dark:from-teal-900/40 dark:to-slate-800 shadow-xl p-2 md:p-3 rotate-3 hover:rotate-0 transition-transform duration-500 ease-out">
                         <div className="w-full h-full rounded-2xl overflow-hidden relative bg-white dark:bg-slate-900">
                             <img
-                                src="/profile.jpg"
+                                src="/portfolio/profile.jpg"
                                 alt="Oskar - Frontend Developer"
                                 className="w-full h-full object-cover hover:scale-105 transition-all duration-700 object-top"
                                 onError={(e) => {
