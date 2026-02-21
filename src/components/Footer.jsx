@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail, Heart } from 'lucide-react';
+import { Instagram, Mail, Heart } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export default function Footer() {
@@ -18,9 +18,7 @@ export default function Footer() {
                         </p>
                         <div className="flex gap-4">
                             {[
-                                { icon: Github, href: "https://github.com" },
-                                { icon: Linkedin, href: "https://linkedin.com" },
-                                { icon: Twitter, href: "https://twitter.com" },
+                                { icon: Instagram, href: "https://www.instagram.com/o.s.k.r.r/" },
                                 { icon: Mail, href: "mailto:oskar.tariskaa@gmail.com" }
                             ].map((social, i) => (
                                 <a

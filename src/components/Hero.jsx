@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { ArrowRight, Github, Linkedin, Twitter } from 'lucide-react';
+import { ArrowRight, Instagram } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 export default function Hero() {
@@ -68,7 +68,9 @@ export default function Hero() {
                         transition={{ duration: 0.5, delay: 0.5 }}
                         className="flex items-center gap-4 justify-center md:justify-start mt-12"
                     >
-                        {[].map((social, i) => (
+                        {[
+                            { icon: Instagram, href: "https://www.instagram.com/o.s.k.r.r/" }
+                        ].map((social, i) => (
                             <a
                                 key={i}
                                 href={social.href}
