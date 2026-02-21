@@ -95,7 +95,6 @@ export default function Hero() {
                                 alt="Oskar - Frontend Developer"
                                 className="w-full h-full object-cover hover:scale-105 transition-all duration-700 object-top"
                                 onError={(e) => {
-                                    e.target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop";
                                     e.target.className = "w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700 object-top"
                                 }}
                             />
