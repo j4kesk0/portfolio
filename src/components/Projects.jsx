@@ -9,7 +9,7 @@ export default function Projects() {
         {
             title: t('projects.p3.title'),
             description: t('projects.p3.desc'),
-            image: "https://radovantariska.com/epk/Screenshot%202026-02-21%20at%2014-32-32%20Radovan%20Tariska%20Modern%20Jazz%20Saxophone.png", // Music related image
+            image: "portfolio/show.jpg", // Music related image
             tags: ["React", "Framer Motion", "Tailwind CSS"],
             links: { github: "#", live: "https://radovantariska.com" }
         }
